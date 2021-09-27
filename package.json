@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dima-as/goit-js-hw-10-food-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dima-as/goit-js-hw-10-food-service/issues"
+  },
+  "homepage": "https://github.com/Dima-as/goit-js-hw-10-food-service#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "posthtml-include": "^1.7.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21",
+    "sass": "^1.42.1"
+  }
+}
